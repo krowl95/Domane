@@ -1,0 +1,115 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    line-height: 100px;
+    height: 300px;
+    text-align: center;
+    display: inline-flex;
+    margin: 0%;
+    padding: 0%;
+    background-color:#778DA9;
+}
+
+h1 {
+    font-size: 3em;
+    color: #e0e1dd;
+}
+
+#copyrate { 
+    text-align: right;
+    color: #E0E1DD;
+    text-decoration: none;
+}
+
+a {
+    font-size: 32px;
+    color: #e0e1dd;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+nav {
+    background: #415a77;
+    z-index: 9999999;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sticky-menu {
+    position: fixed;
+    top: 0;
+}
+
+.textcont {
+    height: 450px;
+    background-color: #e0e1dd ;
+}
+.objectcont_top {
+    height: 450%;
+    padding: 2%;
+    display: inline-flex;
+    background-image: url(img/bckimg1.jpg);
+    background-attachment: fixed;
+}
+.objectcont_bottom {
+    height:  450px;
+    background-image: url(img/bckimg2.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; 
+    background-attachment: fixed;
+}
+footer {
+    padding: 1%;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    
+}
+.short_desc_con {
+    width: 25%;
+    background-color: white;
+    margin:auto;
+    border-radius: 15px;
+}
+
+.short_header {
+    padding: 2%;
+    height: 10%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #415a77;
+    text-align: center;
+    font-size: 24px;
+    color: #E0E1DD;
+
+}
+
+.short_con {
+    padding: 2%;
+    height: 250px;
+    width: 100%;
+    background-color: #E0E1DD;
+    padding-top: 5px;
+}
+
+.short_footer {
+    padding: 2%;
+    height: 10%;
+    width: 100%;
+    background-color: #415a77;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: end;
+    font-size: 24px;
+    color: #E0E1DD;
+}
+
+@font-face {
+
+    font-family: robotoregular;
+    src: url(/font/3966.ttf)
+
+}
